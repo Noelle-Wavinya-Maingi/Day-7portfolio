@@ -1,84 +1,89 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Times New Roman", Times, serif;
-  }
-  
-  .navbar {
-    display: flex;
-    text-decoration: none;
-    border:solid 2px black;
-    margin-top: 20px;
-    margin-right:3opx ;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    padding-left: 900px;
-  }
-  
-  nav ul li {
-    padding-right: 60px;
-    font-size: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  #logo {
-    margin-top: 15px;
-    font-size: x-large;
-    margin-left: 20px;
-  }
-  .John{
-      color: rgb(247, 103, 127);
-  }
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
 
-  .para{
-    font-size: 80px;
- }
-  
- .row{
-    display: flex;
-    margin-top: 200px;
- }
+.navbar {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  border: solid 2px black;
+  padding: 14px 0;
+  margin-top: 20px;
+  margin-right: 3opx;
+}
 
- .column{
-    display: flex;
-    flex: 50%;
-    margin-left: 500px;
- }
+nav ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  padding-left: 900px;
+}
 
- p{
-    font-size: 20px;
-    margin-bottom: 10px;
+nav ul li {
+  padding-right: 60px;
+  font-size: 20px;
+}
 
- }
- .column1{
-   margin-left: 50px;
- }
+a {
+  text-decoration: none;
+  color: black;
+}
 
- button{
-    background-color: rgb(250, 79, 107);
-    color: white;
-    font-size: 30px;
-    border-radius: 10px;
-    border-color: rgb(250, 79, 107);
-    margin-right: 40px;
-    padding: 10px;
- }
+#logo {
+  margin-top: 15px;
+  font-size: x-large;
+  margin-left: 20px;
+}
+.John {
+  color: rgb(247, 103, 127);
+}
 
- .social{
-    display: flex;
-    margin-right: 60px;
-    margin-top: 20px;
- }
- .image{
-    border: solid 2px black;
-    border-radius: 10px;
-    margin-right: 20px;
-    width: 50px;
- }
+.para {
+  font-size: 80px;
+}
+
+.row {
+  display: flex;
+  margin-top: 200px;
+}
+
+.column1 {
+  margin-left: 50px;
+  position: static;
+}
+
+.column {
+  position: static;
+  display: flex;
+  flex: 50%;
+  margin-left: 700px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(250, 79, 107);
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  border-color: rgb(250, 79, 107);
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.social {
+  display: flex;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+.image {
+  border: solid 2px black;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 50px;
+}
