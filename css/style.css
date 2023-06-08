@@ -73,12 +73,15 @@ p {
 
 button {
   background-color: rgb(250, 79, 107);
-  color: white;
   font-size: 30px;
   border-radius: 10px;
   border-color: rgb(250, 79, 107);
-  margin-right: 40px;
+  margin-right: 25px;
   padding: 10px;
+}
+
+button a{
+  color: white;
 }
 
 .social {
@@ -86,9 +89,23 @@ button {
   margin-right: 60px;
   margin-top: 20px;
 }
+.social li{
+  list-style: none;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+i{
+  font-size: 30px;
+  padding: 8px;
+}
 .image {
   border: solid 2px black;
   border-radius: 10px;
   margin-right: 20px;
-  width: 50px;
+}
+
+img{
+  width: 600px;
+  height: 500px;
 }
